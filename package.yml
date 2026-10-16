@@ -1,0 +1,15 @@
+package: community.lazycat.app.mitra
+version: 0.6.1
+name: Mitra
+description: "One calendar to plan your events and tasks"
+min_os_version: 1.5.0
+author: a11delavar
+license: AGPL-3.0
+homepage: https://github.com/a11delavar/mitra
+locales:
+  zh:
+    name: "Mitra"
+    description: "一体化日历：规划事件与任务，支持 CalDAV/Google/Apple/Notion/Tempo 双向同步与只读订阅"
+  en:
+    name: "Mitra"
+    description: "One calendar to plan your events and tasks"
