@@ -11,7 +11,7 @@ application:
 services:
   mitra:
     # upstream: ghcr.io/a11delavar/mitra:latest (= v0.6.1, GHCR 无版本 tag)
-    image: ghcr.1ms.run/a11delavar/mitra:latest@sha256:1fc1b669e841331cbfea1c25e762969a880c3ba344bd802a32920b1bd563af6a
+    image: ghcr.nju.edu.cn/a11delavar/mitra:latest@sha256:1fc1b669e841331cbfea1c25e762969a880c3ba344bd802a32920b1bd563af6a
     environment:
       - TZ=Asia/Shanghai
     binds:

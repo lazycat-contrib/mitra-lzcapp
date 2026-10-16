@@ -24,6 +24,7 @@ jobs:
       config: .github/lazycat-action.yml
       dry-run: ${{ github.event_name == 'pull_request' }}
       versioned-release-asset: true
+      ghcr-mirror: ghcr.nju.edu.cn
     secrets:
       APPSTORE_URL: ${{ secrets.APPSTORE_URL }}
       APPSTORE_TOKEN: ${{ secrets.APPSTORE_TOKEN }}
