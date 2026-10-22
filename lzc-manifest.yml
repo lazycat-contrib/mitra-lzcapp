@@ -7,11 +7,10 @@ application:
   upstreams:
     - location: /
       backend: http://mitra:3000/
-
 services:
   mitra:
-    # upstream: ghcr.io/a11delavar/mitra:latest (= v0.6.1, GHCR 无版本 tag)
-    image: ghcr.nju.edu.cn/a11delavar/mitra:latest@sha256:0b480683feae4adeb61ee904611fcd6d49668ba4c595c2438ddc9d8163759122
+    # upstream: ghcr.io/a11delavar/mitra:latest@sha256:d9546ac0e5058e30cef9b2465656b92f307dd4dc8587fad518378d3dde45e206
+    image: ghcr.nju.edu.cn/a11delavar/mitra:latest@sha256:d9546ac0e5058e30cef9b2465656b92f307dd4dc8587fad518378d3dde45e206
     environment:
       - TZ=Asia/Shanghai
     binds:

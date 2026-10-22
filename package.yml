@@ -1,5 +1,5 @@
 package: community.lazycat.app.mitra
-version: 0.6.1
+version: 0.6.2
 name: Mitra
 description: "One calendar to plan your events and tasks"
 min_os_version: 1.5.0
