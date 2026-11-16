@@ -9,8 +9,8 @@ application:
       backend: http://mitra:3000/
 services:
   mitra:
-    # upstream: ghcr.io/a11delavar/mitra:latest@sha256:d9546ac0e5058e30cef9b2465656b92f307dd4dc8587fad518378d3dde45e206
-    image: ghcr.nju.edu.cn/a11delavar/mitra:latest@sha256:d9546ac0e5058e30cef9b2465656b92f307dd4dc8587fad518378d3dde45e206
+    # upstream: ghcr.io/a11delavar/mitra:latest@sha256:073a848c05ddc5d63a82ac06efdb0f963b9f5631c7012e1a0d3013f8e8c1f1a6
+    image: ghcr.nju.edu.cn/a11delavar/mitra:latest@sha256:073a848c05ddc5d63a82ac06efdb0f963b9f5631c7012e1a0d3013f8e8c1f1a6
     environment:
       - TZ=Asia/Shanghai
     binds:
